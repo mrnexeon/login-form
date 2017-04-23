@@ -61,7 +61,8 @@ input::placeholder {
 .text-field:focus {
     outline: none;
     border: 1px solid #7dc6dd;
-    box-shadow: inset 0px 1px 4px 0px rgba(0,0,0,0.25), 0px 0px 0px 4px rgba(224,241,252,1);
+    box-shadow: inset 0px 1px 4px 0px rgb(125,198,221), 0px 0px 0px 4px rgba(224,241,252,1);
+    transition: 0.5s;
 }
 
 input[type="password"] {
@@ -73,7 +74,7 @@ input[type="password"] {
 }
 
 .btn-login {
-    background: linear-gradient(#edf6f9, #cfe6ee);
+    background: linear-gradient(#E3F2FD, #BBDEFB);
     float: right;
     width: 70px;
     height: 30px;
@@ -88,14 +89,14 @@ input[type="password"] {
 
 .btn-login:hover {
   outline: none;
-  background: linear-gradient(#cfe6ee, #edf6f9);
+  background: linear-gradient(#BBDEFB, #E3F2FD);
   box-shadow: inset 0px 1px 2px 0px white, 0px 0px 0px 4px rgba(0,0,0,0.05), 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
   
 }
 
 .btn-login:active {
   outline: none;
-  background: linear-gradient(#cfe6ee, #edf6f9);
+  background: linear-gradient(#BBDEFB, #E3F2FD);
   box-shadow: inset 0px 1px 6px 0px rgba(79, 134, 152, 0.3), 0px 0px 0px 4px rgba(0,0,0,0.05);
 }
 
