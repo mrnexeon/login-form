@@ -1,0 +1,125 @@
+@import url("reset.css"); /* Сброс стилей */
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #42A5F5 radial-gradient(circle at 50% 30%, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 40%);
+    background-repeat: no-repeat; 
+    font-family: "Lato", sans-serif;
+    color: #555;
+    font-size: 12px;
+}
+
+#login-form-box
+ {
+    background: #fdfdfd;
+    width: 360px;
+    height: 240px;
+    margin: 150px auto 0px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0px 0px 0px 8px rgba(0,0,0,0.05);
+}
+
+.header {
+    background: linear-gradient(rgb(255, 255, 255), rgb(236, 241, 244));
+    border-radius: 4px 4px 0px 0px;
+    text-align: center;
+    border-bottom: 1px solid #f6f8f9;
+    box-shadow: inset 0px 1px 0px 0px rgb(255,255,255), 0px 1px 0px 0px #bfc3c5, 0px 1px 3px 0px rgba(0,0,0,0.15);
+}
+
+h1 {
+    display: inline-block;
+    margin: 18px;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+form {
+    padding: 24px;
+}
+
+input::placeholder {
+  color: #aeaeae;
+}
+
+.text-field {
+    color: #555;
+    font-size: 13px;
+    height: 35px;
+    width: 312px;
+    padding-left: 11px;
+    border: 1px solid #c1c6c8;
+    box-shadow: inset 0px 0.5px 4px 0px rgba(0,0,0,0.25), 0px 0px 0px 4px rgba(226,234,238,0.4);
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.text-field:focus {
+    outline: none;
+    border: 1px solid #7dc6dd;
+    box-shadow: inset 0px 1px 4px 0px rgba(0,0,0,0.25), 0px 0px 0px 4px rgba(224,241,252,1);
+}
+
+input[type="password"] {
+    margin-top: 20px;
+}
+
+.inner-box {
+    margin-top: 19px;
+}
+
+.btn-login {
+    background: linear-gradient(#edf6f9, #cfe6ee);
+    float: right;
+    width: 70px;
+    height: 30px;
+    color: rgb(82, 121, 136);
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+    border: 1px solid #9db9c2;
+    border-radius: 14px;
+    box-shadow: inset 0px 1px 2px 0px white, 0px 0px 0px 4px rgba(0,0,0,0.05), 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
+}
+
+.btn-login:hover {
+  outline: none;
+  background: linear-gradient(#cfe6ee, #edf6f9);
+  box-shadow: inset 0px 1px 2px 0px white, 0px 0px 0px 4px rgba(0,0,0,0.05), 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
+  
+}
+
+.btn-login:active {
+  outline: none;
+  background: linear-gradient(#cfe6ee, #edf6f9);
+  box-shadow: inset 0px 1px 6px 0px rgba(79, 134, 152, 0.3), 0px 0px 0px 4px rgba(0,0,0,0.05);
+}
+
+.btn-login:focus {
+    outline: none;
+}
+
+footer {
+    color: white;
+    margin: 26px auto;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.15);
+}
+
+b {
+    font-weight: bold;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
